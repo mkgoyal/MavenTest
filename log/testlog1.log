@@ -1,0 +1,7 @@
+2020-12-20 19:06:49,002 - com.Google.Test.GET_HeaderTest_Google -INFO -Base URI
+2020-12-20 19:06:50,329 - com.Google.Test.GET_HeaderTest_Google -INFO -create request object
+2020-12-20 19:06:51,407 - com.Google.Test.GET_HeaderTest_Google -INFO -Create response object
+2020-12-20 19:06:59,148 - com.Google.Test.GET_HeaderTest_Google -INFO -Print response in console
+2020-12-20 19:06:59,725 - com.Google.Test.GET_HeaderTest_Google -INFO -Verify header content type
+2020-12-20 19:06:59,725 - com.Google.Test.GET_HeaderTest_Google -INFO -verify header Content-Encoding
+2020-12-20 19:06:59,725 - com.Google.Test.GET_HeaderTest_Google -INFO -Print all header

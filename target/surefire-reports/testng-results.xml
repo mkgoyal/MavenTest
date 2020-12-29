@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="10957" started-at="2020-12-20T13:36:48Z" finished-at="2020-12-20T13:36:59Z">
+  <suite name="Surefire suite" duration-ms="11353" started-at="2020-12-29T13:14:19Z" finished-at="2020-12-29T13:14:31Z">
     <groups>
     </groups>
-    <test name="Surefire test" duration-ms="10957" started-at="2020-12-20T13:36:48Z" finished-at="2020-12-20T13:36:59Z">
+    <test name="Surefire test" duration-ms="11353" started-at="2020-12-29T13:14:19Z" finished-at="2020-12-29T13:14:31Z">
       <class name="com.Google.Test.GET_HeaderTest_Google">
-        <test-method status="PASS" signature="googleMapTest()[pri:0, instance:com.Google.Test.GET_HeaderTest_Google@19bb089b]" name="googleMapTest" duration-ms="10910" started-at="2020-12-20T13:36:48Z" finished-at="2020-12-20T13:36:59Z">
+        <test-method status="PASS" signature="googleMapTest()[pri:0, instance:com.Google.Test.GET_HeaderTest_Google@19bb089b]" name="googleMapTest" duration-ms="11243" started-at="2020-12-29T13:14:19Z" finished-at="2020-12-29T13:14:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- googleMapTest -->

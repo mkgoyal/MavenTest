@@ -1,5 +1,7 @@
 package com.Google.Test;
 
+import java.util.LinkedHashMap;
+
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.testng.Assert;
@@ -48,14 +50,21 @@ public class GET_HeaderTest_Google {
 		System.out.println("Content-Encoding is:"+contentEncodingHeader);
 		Assert.assertEquals(contentEncodingHeader,"gzip");
 		
+		//object for output Header as linked hash map
+		LinkedHashMap<String,String> outh=new LinkedHashMap<String, String>();
+		
 		//Print all header
 		logger.info("Print all header");
 		Headers allHeaders=response.headers();
 		
 		for (Header header:allHeaders) {
 			System.out.println(header.getName()+"-----"+header.getValue());
+			outh.put(header.getName(),header.getValue());
 		}
 		
+		//printing saved header
+		logger.info("printing saved header");
+		System.out.println(outh);
 		
 		
 	}
